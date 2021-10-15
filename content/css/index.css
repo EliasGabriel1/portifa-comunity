@@ -1,0 +1,148 @@
+.apresentation {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 50px;
+    margin-bottom: 10px
+}
+
+.cv {
+    width: max-content;
+    padding: 13px 20px;
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.cv>a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    align-self: center;
+}
+
+.content-apresentation>p {
+    margin: 40px 0;
+    max-width: 500px;
+}
+
+.content-apresentation>h1 {
+    font-weight: 700;
+    max-width: 500px;
+}
+
+.recents-post {
+    padding: 27px 0;
+}
+
+.recents-posts-conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.item-recents-posts {
+    display: flex;
+    justify-content: space-between;
+    margin: 11px 0;
+    max-width: 300px;
+}
+
+.box-container-recents-post {
+    background-color: white;
+    padding: 24px 21px;
+    max-width: 420px;
+}
+
+.box-container-recents-post>h2 {
+    max-width: 374px;
+}
+
+.content-text {
+    display: block;
+    margin-left: 18px
+}
+
+.Featured-works>a {
+    text-decoration: none;
+}
+
+.item-works {
+    display: grid;
+    grid-template-columns: 28% 72%;
+    border-bottom: 2px solid var(--bc-recents-post);
+    padding: 15px 0;
+}
+
+.item-works:hover {
+    background-color: var(--bc-hover-works);
+    border-radius: 12px;
+}
+
+.item-works>figure>img {
+    width: 248px;
+    height: 180px;
+}
+
+.list-works {
+    display: flex;
+    justify-content: space-between;
+    max-width: 170px;
+    align-items: center;
+}
+
+.list-works>.year {
+    font-size: 14px;
+    background: black;
+    color: white;
+    height: 17px;
+    border-radius: 20px;
+    padding: 0px 8px;
+    align-items: center;
+    display: flex;
+}
+
+.recents-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Featured-works {
+    padding: 53px 0;
+    margin-bottom: 70px;
+}
+
+.avatar>figure>img {
+    width: -webkit-fill-available;
+}
+
+@media (max-width:900px) {
+    .apresentation {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: unset;
+    }
+    .recents-header {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .recents-posts-conteudo {
+        display: block;
+    }
+    .box-container-recents-post {
+        margin: 30px 20px;
+    }
+    .item-works {
+        margin: 30px 20px;
+        display: block;
+    }
+    .list-works {
+        margin: 16px 0
+    }
+    .works-header>p {
+        text-align: center;
+    }
+    .content-apresentation {
+        text-align: center;
+    }
+}

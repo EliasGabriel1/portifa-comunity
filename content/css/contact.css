@@ -1,0 +1,34 @@
+nav.container li:nth-child(4) a {
+    color: #FF6464;
+}
+
+.container-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.contact-content {
+    width: min-content;
+    text-align: center;
+}
+
+.contact-content h3 {
+    width: max-content;
+}
+
+.contact-content p {
+    width: max-content;
+    font-style: italic;
+}
+
+.contact-content span {
+    width: max-content;
+}
+
+.contact-content .email {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
