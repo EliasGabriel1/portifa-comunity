@@ -81,4 +81,12 @@ nav.container li:nth-child(3) a {
     .container-blog {
         padding: 0 20px;
     }
+    .container__main {
+        margin: 0 10px;
+    }
+    .container__blog>div {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
 }

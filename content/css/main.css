@@ -70,6 +70,13 @@ ul {
     color: white;
 }
 
+.change>.menu-drop>ul>li>a>img {
+    width: 50px;
+    border-radius: 50%;
+    background: #ffffff59;
+    padding: 6px;
+}
+
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
@@ -125,6 +132,9 @@ footer {
 
 .footer-content {
     padding: 57px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .copy a {
@@ -160,5 +170,14 @@ footer {
     }
     header {
         padding: 20px;
+    }
+    .content-social {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        justify-content: center;
+    }
+    .footer-content {
+        gap: 30px;
     }
 }

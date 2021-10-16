@@ -10,6 +10,11 @@
     padding: 13px 20px;
     background-color: var(--primary-color);
     border: none;
+    cursor: pointer;
+}
+
+.cv:hover {
+    background-color: #ff6464ed;
 }
 
 .cv>a {
@@ -78,8 +83,7 @@
 }
 
 .item-works>figure>img {
-    width: 248px;
-    height: 180px;
+    width: 100%;
 }
 
 .list-works {
