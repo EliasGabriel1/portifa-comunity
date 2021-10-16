@@ -2,7 +2,7 @@
 
 ## Após muitas pessoas me procurar querendo saber como fazer portifólio decidi fazer esse com um tutorial de como mudar cada parte e ao mesmo tempo vpcê aprender um pouco mais sobre html e css.
 
-<a href="https://eliasgabriel1.github.io/portifa-comunity/"> ESSE PORTFÓLIO</a>
+<a href="https://eliasgabriel1.github.io/portifa-comunity/" target="_blank"> ESSE PORTFÓLIO</a>
 ### Primeiro gostaria de pedir pra dar aquela estrelinha se ajudar em algo eu vou continuar fazendo esse tipo de conteúdo (da mo trabalho)
 
 <h2>Como foi algo feito para iniciantes, vou mostrar desde o inicio</h2>
